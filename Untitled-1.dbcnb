@@ -1,0 +1,17 @@
+cells:
+  - kind: 2
+    languageId: sql
+    value: SELECT * FROM "Equipe_Completa";
+    metadata: {}
+  - kind: 2
+    languageId: sql
+    value: "UPDATE \"Equipe_Completa\"\r
+
+      SET \"EMAIL\" = LOWER(\"EMAIL\");"
+    metadata: {}
+metadata:
+  conn:
+    id: uGZeTPpEOA-rFel7rQvdH
+    name: cobranca_db
+  database: db_cobranca
+  schema: public
